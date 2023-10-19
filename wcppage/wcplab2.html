@@ -17,7 +17,7 @@ a:active {
 	}
 	
 	.vdlink:active {
-    font-size: 14px;
+    font-size: 9px;
 	}
 	
 #homelink {
@@ -25,10 +25,28 @@ a:active {
 #digitallink:hover {
     font-style: italic;
 }
+#wcplink {
+}
+#wcplink:hover {
+    border: solid;
+}
 #digitallink {
 }
 #digitallink:active {
-    speak: inherit;
+    display: block;
+}
+#wcplink:active {
+    border: dotted;
+}
+#aboutmelink {
+}
+#aboutmelink:hover {
+    -webkit-box-shadow: inset 50px 0px;
+    box-shadow: inset 50px 0px;
+}
+#aboutmelink:active {
+    -webkit-box-shadow: inset 0px 5px;
+    box-shadow: inset 0px 5px;
 }
 </style>
 </head>
@@ -44,7 +62,9 @@ a:active {
 	
 	<a href="../digitaldesign.html" title="Digital Design " id="digitallink">Digital Design </a>
 	
-	<a href="../wcp.html" title="WCP">WCP</a>
+	<a href="../wcp.html" title="WCP" id="wcplink">WCP</a>
+	
+	<a href="../aboutme.html" title="About Me" id="aboutmelink">About Me </a>
 	
 </body>
 </html>
