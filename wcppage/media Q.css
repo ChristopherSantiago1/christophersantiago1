@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1000px){
+h1 {
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+}
