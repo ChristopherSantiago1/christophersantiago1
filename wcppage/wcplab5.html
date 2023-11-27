@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WCP Lab 5</title>
+</head>
+
+<body>
+	
+	<h1>Sign-Up Form for Travel Blog</h1>
+	<p>This form will be used to create an account and collect information for Visitors to the Travel Blog</p>
+	
+	<form method="POST" action="https://handlers.education.launchcode.org/request-parrot">
+	<label for ="">First Name:</label>
+		
+	<input name="firstname" type="text" required="required">
+		
+		<label for ="lastname">Last Name:</label>
+		
+	<input name="lastname" type="text" required="required" id="lastname">
+		
+		<br>
+		
+		<label for ="username">Username:</label>
+		
+	<input name="username" type="text" required="required" id="username" pattern="[A-Za-z]{6,10}">
+		
+	  <label for ="password">Password:</label>
+		
+	<input name="password" type="password" required="required" id="password" pattern="[0-9A-Za-z]{6,10}">
+		
+		<br>
+		
+		<br>
+	
+		<label for ="dob">Date of Birth:</label>
+		
+	<input name="dob" type="date" required="required" id="dob">
+		
+		<label for ="phone">Phone Number:</label>
+		
+	<input name="phone" type="tel" required="required" id="phone" pattern="{10,10}">
+		
+		<label for ="email">Email:</label>
+		
+	<input name="email" type="email" required="required" id="email">
+		
+		<br>
+		
+		<br>
+		
+	  <label for ="web">Personal Website:</label>
+		
+	<input name="web" type="url" id="web">
+		
+		<br>
+		
+		<label for ="interest">Interest:</label>
+	<input name="interest" type="checkbox" id="interest">Hiking
+		<input name="checkbox1" type="checkbox" id="checkbox1">Hot air balloon
+		<input name="checkbox2" type="checkbox" id="checkbox2">Sailing
+		<input name="checkbox3" type="checkbox" id="checkbox3">Surfing
+		
+		<br>
+		
+		<br>
+		
+		<label for ="radio">Where did you hear about this site?</label>
+		<br>
+		<input name="radio" type="radio" id="radio">YouTube
+		<input name="radio1" type="radio" id="radio1">Friend or Family
+		<input name="radio2" type="radio" id="radio2">Google
+		<input name="radio3" type="radio" id="radio3">Online
+		
+		<br>
+		
+		<br>
+		
+	  <input type="submit"><input type="reset">
+	</form>
+	
+</body>
+</html>

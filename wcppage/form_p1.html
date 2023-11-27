@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form Validation</title>
+<style></style>
+</head>
+
+<body>
+<h2>1.) Add a box for Last Name to the form below.<br>
+  Be sure to add a Label and keep the formatting the same</h2>
+<form>
+  <label for="fname">First name:</label>
+  <input name="fname" type="text" id="fname">
+  <label for="lname">Last name:</label>
+  <input name="lname" type="text" id="lname">
+  <br>
+  <button>Submit</button>
+</form>
+<hr>
+<h2>2.)Create a form below with the following 2 text boxes: Email and Password<br>
+  Be sure to add Labels and a Submit button<br>
+  The Password should appear as *** when you type it in </h2>
+<!--put the form here -->
+<form>
+
+  <label for="email">Email:</label>
+  <input name="email" type="email" id="email">
+  <label for="password"> Password:</label> 
+  <input name="password" type="password" id="password">
+  <br>
+  <button>Submit</button>
+</form>
+<hr>
+<h2>
+3) Add 2 more radio buttons for CSS and Javascript below.<br>
+You SHOULD use the same name for all 3 buttons
+</h2>
+	
+<form>
+  <p>What's your favorite programming language?</p>
+   
+  <input type="radio" id="html" name="fav_language" value="HTML">
+   
+  <label for="html">HTML</label>
+  <br>
+   <input type="radio" id="css" name="fav_language" value="css">
+   
+  <label for="css">CSS</label>
+  <br>
+	<input type="radio" id="java" name="fav_language" value="java">
+   
+  <label for="java">Javascript</label>
+  <br>
+  <button>Submit</button>
+	
+</form>
+<hr>
+<h2>4) Add 2 more checkboxes for "Car" and "Subway" <br>
+  Make sure that you use a DIFFERENT name for each checkbox</h2>
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label>
+  <br>
+	
+<input type="checkbox" id="car" name="car" value="car">
+  <label for="car"> I have a car</label>
+  <br>
+	
+	<input type="checkbox" id="subway" name="subway" value="subway">
+  <label for="subway"> Subway</label>
+  <br>
+	
+  <button>Submit</button>
+</form>
+	
+	<h2>5) Create a Registration form which asks for the following:
+First Name, Last Name, Date of birth. Be sure to add both a "Submit" and "Reset" button. Make sure Reset works</h2>
+<h4>Registration Form</h4>
+	<form>
+	<label for="FirstName">First Name:</label>
+		<input name="FirstName" type="text" required="required" id="FirstName">
+		
+		<label for="LastName">Last Name:</label>
+		<input name="LastName" type="text" required="required" id="LastName">
+		
+		<label for="dob">Date of Birth:</label>
+		<input name="dob" type="date" required="required" id="dob">
+		<br>
+		
+		<button>Submit</button>
+		<input type="reset">
+</form>
+	
+<h2>6) Create a Survey form which asks for the following:
+Full Name and favorite website. Be sure to use URL and mark both as "required". Add a submit button and check the boxes are required.</h2>
+<h4>Fav Site Survey Form</h4>
+	<!--Add the form below-->
+	<form>
+	<label for="fullname">Full Name:</label>
+		<input name="fullname" type="text" required="required" id="fullname">
+		
+		<label for="fweb">Favorite Website:</label>
+		<input name="fweb" type="url" required="required" id="fweb">
+		<input type="submit">
+	</form>
+<hr>
+	
+<h2>7) Create a form of your choice</h2>
+	<!--Add the form below-->
+	
+	<form>
+	  <p>
+		  
+		  <h3>Checklist</h3>
+		  
+		  <label for="homework">
+		    <input type="checkbox" name="homework" value="checkbox" id="homework">
+		    Homework</label>
+		  <br>
+		  <label for="project">
+		    <input type="checkbox" name="project" value="checkbox" id="project"> Research Project</label>
+		  <br>
+		
+		  <label for="test">
+		  <input type="checkbox" name="test" value="checkbox" id="test"> Test</label>
+	  </p>
+    </form>
+	
+	
+</body>
+</html>
